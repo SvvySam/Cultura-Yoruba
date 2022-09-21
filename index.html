@@ -14,14 +14,14 @@
 <body>
     <header>
         <nav>
-            <a href="#">Inicio</a>
-            <a href="#">Acerca de</a>
-            <a href="#">Portafolio</a>
-            <a href="#">Servicios</a>
-            <a href="#">Contacto</a>
+            <a href="#inicio">Inicio</a>
+            <a href="#acerca">Acerca de</a>
+            <a href="#pro">Programación</a>
+            <a href="#equipo">Equipo</a>
+            <a href="#ser">Servicios</a>
         </nav>
         <section class="textos-header">
-            <h1>Aprende de la religión Yoruba</h1>
+            <h1 id="inicio">Aprende de la religión Yoruba</h1>
             <h2>Econtrarás mucho conocimiento sobre diversos orishas y egguns</h2>
         </section>
         <div class="wave" style="height: 150px; overflow: hidden;"><svg viewBox="0 0 500 150" preserveAspectRatio="none"
@@ -32,7 +32,7 @@
     </header>
     <main>
         <section class="contenedor sobre-nosotros">
-            <h2 class="titulo">Sobre nosotros</h2>
+            <h2 id="acerca" class="titulo">Sobre nosotros</h2>
             <div class="contenedor-sobre-nosotros">
                 <img src="img/sobrenosotros.svg" alt="" class="imagen-about-us">
                 <div class="contenido-textos">
@@ -49,12 +49,14 @@
         </section>
         <section class="portafolio">
             <div class="contenedor">
-                <h2 class="titulo">Portafolio</h2>
+                <h2 id="pro" class="titulo">Programación</h2>
                 <div class="galeria-port">
                     <div class="imagen-port">
                         <img src="img/eleggua.jpg" alt="">
                         <div class="hover-galeria">
-                            <img src="img/icono1.png" alt="">
+                            <a href="eleggua.html" target="_self">
+                                <img src="img/icono1.png" alt="">
+                            </a>
                             <p>Nuestro trabajo</p>
                         </div>
                     </div>
@@ -111,7 +113,7 @@
             </div>
         </section>
         <section class="equipo contenedor">
-            <h2 class="titulo">Equipo de trabajo</h2>
+            <h2 id="equipo" class="titulo">Equipo de trabajo</h2>
             <div class="cards">
                 <div class="card">
                     <img src="img/face1.jpg" alt="">
@@ -138,7 +140,7 @@
         </section>
         <section class="about-services">
             <div class="contenedor">
-                <h2 class="titulo">Nuestros servicios</h2>
+                <h2 id="ser" class="titulo">Nuestros servicios</h2>
                 <div class="servicio-cont">
                     <div class="servicio-ind">
                         <img src="img/telefonos.svg" alt="">
