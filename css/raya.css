@@ -17,7 +17,7 @@ body {
 }
 
 .titulo {
-    color: #310c53ad;
+    color: #000000;
     font-size: 30px;
     text-align: center;
     margin-bottom: 60px;
@@ -28,11 +28,11 @@ body {
 header {
     width: 100%;
     height: 600px;
-    background: #310c53ad;
+    background: #000000;
     /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, hsla(273, 82%, 31%, 0.527), hsla(288, 52%, 61%, 0.664)), url(../img/header3.jpg);
+    background: -webkit-linear-gradient(to right, hsl(0, 0%, 0%), hsla(0, 0%, 0%, 0.664)), url(../img/header5.jpg);
     /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, hsla(273, 82%, 31%, 0.527), hsla(288, 52%, 61%, 0.664)), url(../img/header3.jpg);
+    background: linear-gradient(to right, hsla(0, 0%, 0%, 0.527), hsla(0, 0%, 0%, 0.664)), url(../img/header5.jpg);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     background-size: cover;
     background-attachment: fixed;
@@ -84,16 +84,16 @@ header .textos-header{
 
 /* About us */
 
-main .trono{
+main .raya{
     padding: 30px 0 60px 0;
 }
 
-.contenedor-trono{
+.contenedor-raya{
     display: flex;
     justify-content: space-evenly;
 }
 
-.trono .contenido-textos{
+.raya .contenido-textos{
     width: 100%;
 }
 
@@ -102,7 +102,7 @@ main .trono{
 }
 
 .contenido-textos h3 span{
-    background: #310c53ad;
+    background: #000000;
     color: #fff;
     border-radius: 50%;
     display: inline-block;
@@ -122,47 +122,69 @@ main .trono{
     font-family:Verdana;
 }
 
-.galeria-trono{
+.galeria-raya1{
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
 }
 
-.imagen-trono{
-    width: 100%;
+.imagen-raya1{
+    width: 50%;
     margin-bottom: 50px;
     overflow: hidden;
     position: relative;
     box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
 }
 
-.imagen-trono > img{
+.imagen-raya1 > img{
     width: 100%;
     height: 100%;
     object-fit: cover;
     display: block;
 }
 
-.galeria-trono2{
+.galeria-raya2{
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
 }
 
-.imagen-trono2{
-    width: 100%;
+.imagen-raya2{
+    width: 50%;
     margin-bottom: 50px;
     overflow: hidden;
     position: relative;
     box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
 }
 
-.imagen-trono2 > img{
+.imagen-raya2 > img{
     width: 100%;
     height: 100%;
     object-fit: cover;
     display: block;
 }
+
+.galeria-raya3{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.imagen-raya3{
+    width: 50%;
+    margin-bottom: 50px;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
+}
+
+.imagen-raya3 > img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
 
 
 
