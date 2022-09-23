@@ -17,7 +17,7 @@ body {
 }
 
 .titulo {
-    color: #000000;
+    color: #000;
     font-size: 30px;
     text-align: center;
     margin-bottom: 60px;
@@ -28,11 +28,11 @@ body {
 header {
     width: 100%;
     height: 600px;
-    background: #000000;
+    background: #9e6907;
     /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, hsl(0, 0%, 0%), hsla(0, 0%, 0%, 0.664)), url(../img/header5.jpg);
+    background: -webkit-linear-gradient(to right, hsla(251, 79%, 37%, 0.74), hsla(0, 42%, 38%, 0.664)), url(../img/header6.jpg);
     /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, hsla(0, 0%, 0%, 0.527), hsla(0, 0%, 0%, 0.664)), url(../img/header5.jpg);
+    background: linear-gradient(to right, hsla(39, 86%, 39%, 0.692), hsla(0, 42%, 38%, 0.664)), url(../img/header6.jpg);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     background-size: cover;
     background-attachment: fixed;
@@ -84,16 +84,16 @@ header .textos-header{
 
 /* About us */
 
-main .raya{
+main .eggun{
     padding: 30px 0 60px 0;
 }
 
-.contenedor-raya{
+.contenedor-eggun{
     display: flex;
     justify-content: space-evenly;
 }
 
-.raya .contenido-textos{
+.eggun .contenido-textos{
     width: 100%;
 }
 
@@ -102,7 +102,7 @@ main .raya{
 }
 
 .contenido-textos h3 span{
-    background: #000000;
+    background: #9e6907;
     color: #fff;
     border-radius: 50%;
     display: inline-block;
@@ -122,13 +122,34 @@ main .raya{
     font-family:Verdana;
 }
 
-.galeria-raya1{
+.galeria-eggun1{
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
 }
 
-.imagen-raya1{
+.imagen-eggun1{
+    width: 50;
+    margin-bottom: 50px;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
+}
+
+.imagen-egun1 > img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.galeria-eggun2{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.imagen-eggun2{
     width: 50%;
     margin-bottom: 50px;
     overflow: hidden;
@@ -136,57 +157,54 @@ main .raya{
     box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
 }
 
-.imagen-raya1 > img{
+.imagen-eggun2 > img{
     width: 100%;
     height: 100%;
     object-fit: cover;
     display: block;
 }
 
-.galeria-raya2{
+.galeria-eggun3{
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
 }
 
-.imagen-raya2{
-    width: 50%;
+.imagen-eggun3{
+    width: 75%;
     margin-bottom: 50px;
     overflow: hidden;
     position: relative;
     box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
 }
 
-.imagen-raya2 > img{
+.imagen-eggun3 > img{
     width: 100%;
     height: 100%;
     object-fit: cover;
     display: block;
 }
 
-.galeria-raya3{
+.galeria-eggun4{
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
 }
 
-.imagen-raya3{
-    width: 50%;
+.imagen-eggun4{
+    width: 75%;
     margin-bottom: 50px;
     overflow: hidden;
     position: relative;
     box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
 }
 
-.imagen-raya3 > img{
+.imagen-eggun4 > img{
     width: 100%;
     height: 100%;
     object-fit: cover;
     display: block;
 }
-
-
-
 
 
 @media screen and (max-width:900px){
@@ -194,13 +212,13 @@ main .raya{
         background-position: center;
     }
 
-    .contenedor-raya{
+    .contenedor-eggun{
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
 
-    .raya .contenido-textos{
+    .eggun .contenido-textos{
         width: 90%;
     }
 
@@ -226,7 +244,7 @@ main .raya{
 
     /* ABOUT US */
 
-    .raya .contenido-textos{
+    .eggun .contenido-textos{
         width: 95%;
     }
 }

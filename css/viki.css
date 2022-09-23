@@ -17,7 +17,7 @@ body {
 }
 
 .titulo {
-    color: #000000;
+    color: #000;
     font-size: 30px;
     text-align: center;
     margin-bottom: 60px;
@@ -28,11 +28,11 @@ body {
 header {
     width: 100%;
     height: 600px;
-    background: #000000;
+    background: #440404;
     /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, hsl(0, 0%, 0%), hsla(0, 0%, 0%, 0.664)), url(../img/header5.jpg);
+    background: -webkit-linear-gradient(to right, hsla(356, 80%, 8%, 0.815), hsla(0, 0%, 100%, 0.37)), url(../img/header8.jpg);
     /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, hsla(0, 0%, 0%, 0.527), hsla(0, 0%, 0%, 0.664)), url(../img/header5.jpg);
+    background: linear-gradient(to right, hsla(356, 80%, 8%, 0.815), hsla(0, 0%, 100%, 0.37)), url(../img/header8.jpg);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     background-size: cover;
     background-attachment: fixed;
@@ -84,16 +84,16 @@ header .textos-header{
 
 /* About us */
 
-main .raya{
+main .viki{
     padding: 30px 0 60px 0;
 }
 
-.contenedor-raya{
+.contenedor-viki{
     display: flex;
     justify-content: space-evenly;
 }
 
-.raya .contenido-textos{
+.viki .contenido-textos{
     width: 100%;
 }
 
@@ -102,7 +102,7 @@ main .raya{
 }
 
 .contenido-textos h3 span{
-    background: #000000;
+    background: #440404;
     color: #fff;
     border-radius: 50%;
     display: inline-block;
@@ -122,63 +122,21 @@ main .raya{
     font-family:Verdana;
 }
 
-.galeria-raya1{
+.galeria-viki1{
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
 }
 
-.imagen-raya1{
-    width: 50%;
+.imagen-viki1{
+    width: 50;
     margin-bottom: 50px;
     overflow: hidden;
     position: relative;
     box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
 }
 
-.imagen-raya1 > img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    display: block;
-}
-
-.galeria-raya2{
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-}
-
-.imagen-raya2{
-    width: 50%;
-    margin-bottom: 50px;
-    overflow: hidden;
-    position: relative;
-    box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
-}
-
-.imagen-raya2 > img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    display: block;
-}
-
-.galeria-raya3{
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-}
-
-.imagen-raya3{
-    width: 50%;
-    margin-bottom: 50px;
-    overflow: hidden;
-    position: relative;
-    box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
-}
-
-.imagen-raya3 > img{
+.imagen-viki1 > img{
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -194,13 +152,13 @@ main .raya{
         background-position: center;
     }
 
-    .contenedor-raya{
+    .contenedor-viki{
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
 
-    .raya .contenido-textos{
+    .viki .contenido-textos{
         width: 90%;
     }
 
@@ -226,7 +184,7 @@ main .raya{
 
     /* ABOUT US */
 
-    .raya .contenido-textos{
+    .viki .contenido-textos{
         width: 95%;
     }
 }
