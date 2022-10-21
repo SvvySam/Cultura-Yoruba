@@ -46,7 +46,7 @@ a{
     text-decoration: none;
 }
 nav a{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "open sans";
     font-weight: 800;
     font-size: 3rem;
     color: white;
@@ -57,7 +57,7 @@ nav a:hover{
 }
 
 .nustros-productos{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "open sans";
     color: white;
     font-size: 4rem;
     text-align: center;
@@ -87,7 +87,7 @@ nav a:hover{
 .producto-precio,
 .producto-nombre{
     color: white;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "open sans";
     text-transform: uppercase;
     text-align: center;
 }
@@ -104,7 +104,7 @@ nav a:hover{
 .footer{
     background-color: black;
     padding: 3.5rem;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "open sans";
     padding-bottom: 2rem;
     color: white;
     font-size: 2rem;
@@ -121,7 +121,7 @@ margin-bottom: 20rem;
 .nosotros-texto{
     color: white;
     font-size: 3rem;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "open sans";
 }
 
 .nosotros-img{
@@ -148,7 +148,7 @@ margin-bottom: 20rem;
     text-align: center;
     color: white;
     font-size: 3rem;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "open sans";
     margin-bottom: 5rem;
 }
 .bloque-titulo{
